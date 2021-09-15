@@ -1,0 +1,26 @@
+th{
+    background-color: gray;
+    padding: 1vw;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: rgb(195, 195, 195);
+}
+
+tr:nth-child(odd){
+    background-color: rgb(241, 240, 240);
+}
+
+td{
+    padding: .8vw;
+}
+
+tr:nth-child(3) td:nth-child(2){
+    background-color: rgb(224, 158, 169);
+}
+
+
+tr:nth-child(6) td:nth-child(2){
+    background-color: rgb(224, 158, 169);
+}
+
